@@ -1,14 +1,14 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav class="navbar navbar-expand-lg border-bottom" style={{backgroundColor: "white"}}>
-      <div class="container-fluid">
-        <a class="navbar-brand mx-5 px-5" href="#">
+    <nav className="navbar navbar-expand-lg border-bottom" style={{backgroundColor: "white"}}>
+      <div className="container-fluid">
+        <Link className="navbar-brand mx-5 px-5" to="/">
           <img src="images\bulltrade.logo.png" alt="BullTradLogo" style={{ width: "165px" }} />
-        </a>
+        </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -16,34 +16,34 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5">
-            <li class="nav-item mx-4">
-              <a class="nav-link active" aria-current="page" href="#">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0 px-5">
+            <li className="nav-item mx-4">
+              <Link className="nav-link active" aria-current="page" to="/signup">
                 Signup
-              </a>
+              </Link>
             </li>
-            <li class="nav-item mx-4">
-              <a class="nav-link" href="#">
+            <li className="nav-item mx-4">
+              <Link className="nav-link" to="/about">
                 About
-              </a>
+              </Link>
             </li>
-            <li class="nav-item mx-4">
-              <a class="nav-link" href="#">
+            <li className="nav-item mx-4">
+              <Link className="nav-link" to="/product">
                 Product
-              </a>
+              </Link>
             </li>
-            <li class="nav-item mx-4">
-              <a class="nav-link" href="#">
+            <li className="nav-item mx-4">
+              <Link className="nav-link" to="/pricing">
                 Pricing
-              </a>
+              </Link>
             </li>
-            <li class="nav-item mx-4">
-              <a class="nav-link" href="#">
+            <li className="nav-item mx-4">
+              <Link className="nav-link" to="/support">
                 Support
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

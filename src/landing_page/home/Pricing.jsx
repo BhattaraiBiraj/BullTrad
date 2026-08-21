@@ -5,7 +5,7 @@ function Pricing() {
                 <div className="col-4">
                     <h1>Fair pricing, always</h1>
                     <p className=" mt-4 text-muted">BullTrad brings honest, straightforward pricing to Nepali investors - no confusing fee structures, no surprise deductions, just simple flat rates.</p>
-                    <a className="btn btn-danger text-decoration-none px-5" href="#fjdk">See pricing  <i class="fa-solid fa-arrow-right-long mx-2"></i></a>
+                    <a className="btn btn-danger text-decoration-none px-5" href="#fjdk">See pricing  <i className="fa-solid fa-arrow-right-long mx-2"></i></a>
                 </div>
                 <div className="col-2"></div>
                 <div className="col-6">

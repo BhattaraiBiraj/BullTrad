@@ -26,11 +26,11 @@ export default function Stats() {
                     <img className="mb-4" src="images\ecosystem.png" style={{width : "90%"}} />
                     <div className=" mb-5 row text-center">
                         <div className="col-6">
-                            <a className="btn btn-danger text-decoration-none px-4" href="#fhajdsh">Explore our products  <i class="fa-solid fa-arrow-right-long mx-2"></i>
+                            <a className="btn btn-danger text-decoration-none px-4" href="#fhajdsh">Explore our products  <i className="fa-solid fa-arrow-right-long mx-2"></i>
                             </a>
                         </div>
                         <div className="col-6">
-                            <a className="btn btn-danger text-decoration-none px-5" href="#fhajdsh">Try kite demo <i class="fa-solid fa-arrow-right-long mx-2"></i>
+                            <a className="btn btn-danger text-decoration-none px-5" href="#fhajdsh">Try kite demo <i className="fa-solid fa-arrow-right-long mx-2"></i>
                             </a>
                         </div>
                     </div>
