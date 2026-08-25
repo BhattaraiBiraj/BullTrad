@@ -1,4 +1,4 @@
-import Hero from "../pricing/Hero";
+import Hero from "./Hero";
 import Brokerage from "../pricing/Brokerage";
 import OpenAccount from "../OpenAccount"
 
