@@ -8,19 +8,52 @@ function CreateTicket() {
       </div>
       <div className="row">
         <div className="col p-1">
-          <h5 className="fs-6 my-5"> <i class="fa-solid fa-circle-plus"></i> Account opening</h5>
+          <h5 className="fs-6 my-5">
+            {" "}
+            <i class="fa-solid fa-circle-plus"></i> Account opening
+          </h5>
           <ul className="list-unstyled">
-    <li className="lh-lg"><a href="" className="text-decoration-none">Online Account Opening</a></li>
-    <li className="lh-lg"><a href="" className="text-decoration-none">Offline Account Opening</a></li>
-    <li className="lh-lg"><a href="" className="text-decoration-none">Company, Partnership and HUF Account Opening</a></li>
-    <li className="lh-lg"><a href="" className="text-decoration-none">NRI Account Opening</a></li>
-    <li className="lh-lg"><a href="" className="text-decoration-none">Charges at Zerodha</a></li>
-    <li className="lh-lg"><a href="" className="text-decoration-none">Zerodha IDFC FIRST Bank 3-in-1 Account</a></li>
-    <li className="lh-lg"><a href="" className="text-decoration-none">Getting Started</a></li>
-</ul>
+            <li className="lh-lg">
+              <a href="" className="text-decoration-none">
+                Online Account Opening
+              </a>
+            </li>
+            <li className="lh-lg">
+              <a href="" className="text-decoration-none">
+                Offline Account Opening
+              </a>
+            </li>
+            <li className="lh-lg">
+              <a href="" className="text-decoration-none">
+                Company, Partnership and HUF Account Opening
+              </a>
+            </li>
+            <li className="lh-lg">
+              <a href="" className="text-decoration-none">
+                NRI Account Opening
+              </a>
+            </li>
+            <li className="lh-lg">
+              <a href="" className="text-decoration-none">
+                Charges at Zerodha
+              </a>
+            </li>
+            <li className="lh-lg">
+              <a href="" className="text-decoration-none">
+                Zerodha IDFC FIRST Bank 3-in-1 Account
+              </a>
+            </li>
+            <li className="lh-lg">
+              <a href="" className="text-decoration-none">
+                Getting Started
+              </a>
+            </li>
+          </ul>
         </div>
         <div className="col p-1">
-          <h5 className="fs-6 my-5"><i class="fa-solid fa-user"></i> Your BullTrad Account</h5>
+          <h5 className="fs-6 my-5">
+            <i class="fa-solid fa-user"></i> Your BullTrad Account
+          </h5>
           <ul className="list-unstyled">
             <li className="lh-lg">
               <a href="" className="text-decoration-none">
@@ -50,7 +83,9 @@ function CreateTicket() {
           </ul>
         </div>
         <div className="col p-1">
-          <h5 className="fs-6 my-5"><i class="fa-solid fa-chart-column"></i> Your BullTrad Account</h5>
+          <h5 className="fs-6 my-5">
+            <i class="fa-solid fa-chart-column"></i> Your BullTrad Account
+          </h5>
           <ul className="list-unstyled">
             <li className="lh-lg">
               <a href="" className="text-decoration-none">
