@@ -1,10 +1,22 @@
 import React from "react";
+import { useState, useEffect } from "react";
 
-import { holdings } from "../data/data";
 const Holdings = () => {
+  const [allholdings, setAllHoldings] = useState([])
+
+useEffect(()=>{
+   async function getAllHoldings() {
+     let response = await fetch("http://localhost:8080/getHoldings")
+  let data = await response.json()
+  setAllHoldings(data)
+   }
+ 
+   getAllHoldings()
+}, [])
   return (
     <>
-      <h3 className="title">Holdings ({holdings.length})</h3>
+    <p>hi</p>
+      <h3 className="title">Holdings ({allholdings.length})</h3>
 
       <div className="order-table">
         <table>
@@ -19,7 +31,7 @@ const Holdings = () => {
             <th>Day chg.</th>
           </tr>
 
-         {holdings.map((stock, index)=>{
+         {allholdings.map((stock, index)=>{
             const curValue = stock.price * stock.qty;
             const isProfit = curValue - stock.avg * stock.qty >= 0.0;
             const profClass = isProfit ? "profit" : "loss";
